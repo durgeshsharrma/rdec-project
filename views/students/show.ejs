@@ -1,0 +1,19 @@
+<% layout('layouts/boilerplate') -%>
+
+
+<div class="row offset-2">
+       <h1>Student Detail</h1>
+        <div class = "card  col-8 mt-3">
+            <div class="card-header">
+               <b style="font-size: 1.5rem;"> <%= student.name %></b>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item p-3"><b>Student Id</b> :  <%= student._id  %></li>
+              <li class="list-group-item p-3"><b>Roll Number</b> :  <%= student.rollNo  %></li>
+              <li class="list-group-item p-3"><b>Phone Number</b> : <%= student.phoneNo  %></li>
+              <li class="list-group-item p-3"><b>Father Name</b> : <%= student.fathersName  %></li>
+              
+            </ul>
+          </div>
+    
+</div>
